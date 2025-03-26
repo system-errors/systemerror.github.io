@@ -28,3 +28,14 @@ footer {
         padding: 20px;
     }
 }
+.entry {
+    font-family: 'Courier New', Courier, monospace;
+    color: #f9f9f9;
+    background-color: rgba(255, 0, 0, 0.1);
+    padding: 12px;
+    border: 2px solid #f00;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}

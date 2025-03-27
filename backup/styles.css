@@ -1,0 +1,52 @@
+body {
+    font-family: "Courier New", monospace;
+    background-color: #000;
+    color: #fff;
+    text-align: left;
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.7;
+    margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+}
+
+.entry {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    color: #f9f9f9;
+    background-color: rgba(255, 0, 0, 0.1);
+    padding: 12px;
+    border: 2px solid #f00;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.log-item {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #f9f9f9;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #ff5555;
+    color: #ffffff;
+    text-decoration: none;
+}

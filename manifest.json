@@ -1,0 +1,22 @@
+{
+    "short_name": "SYSTEM ERROR",
+    "name": "SYSTEM ERROR - Gonzo-style street art blog",
+    "description": "A gonzo-style street art blog documenting logs found on streets, pasted on walls and signs.",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#ffffff",
+    "icons": [
+      {
+        "src": "/systemerror.github.io/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/systemerror.github.io/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  

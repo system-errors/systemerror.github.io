@@ -30,7 +30,8 @@ function App() {
 function FooterNav() {
   const location = useLocation();
 
-  if (location.pathname === '/' || location.pathname === '/home') {
+  // Hide footer on home page
+  if (location.pathname === "/" || location.pathname === "/home") {
     return null;
   }
 
@@ -38,15 +39,46 @@ function FooterNav() {
     <footer>
       <nav>
         <ul>
-          <li><Link to="/manifesto">Manifesto</Link></li>
-          <li><Link to="/syslogs">Syslogs</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-          <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+          <li>
+            <Link
+              to="/manifesto"
+              className={location.pathname === "/manifesto" ? "active-link" : ""}
+            >
+              Manifesto
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/syslogs"
+              className={location.pathname === "/syslogs" ? "active-link" : ""}
+            >
+              Syslogs
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/contact"
+              className={location.pathname === "/contact" ? "active-link" : ""}
+            >
+              Contact
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/privacy-policy"
+              className={
+                location.pathname === "/privacy-policy" ? "active-link" : ""
+              }
+            >
+              Privacy Policy
+            </Link>
+          </li>
         </ul>
       </nav>
-      <p style={{'font-size': 10}}>&copy; 2025 SYSTEM ERROR. All Rights Reserved.</p>
+      <p style={{ fontSize: 10 }}>&copy; 2025 SYSTEM ERROR. All Rights Reserved.</p>
     </footer>
   );
 }
+
 
 export default App;

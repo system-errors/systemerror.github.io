@@ -18,7 +18,9 @@ const Contact = () => {
             <textarea id="message" name="message" rows="5" required></textarea>
           </div>
           
-          <button type="submit">Send Message</button>
+          <div class="button-container">
+            <button type="submit">Send Message</button>
+          </div>
         </form>
       </div>
 

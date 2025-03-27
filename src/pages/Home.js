@@ -20,19 +20,21 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
-      <p style={{"padding": "20px"}}>{message || ''}</p>
-    
-      <nav>
-        <ul>
-          <li><Link to="/manifesto">Manifesto</Link></li>
-          <li><Link to="/syslogs">Syslogs</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-          <li><Link to="/privacy-policy">Privacy Policy</Link></li>
-        </ul>
-      </nav>
+    <div className="container">
+      <div className="content">
+        <p className="glitch-message">{message || ''}</p>
+        
+        <nav>
+          <ul>
+            <li><Link to="/manifesto">Manifesto</Link></li>
+            <li><Link to="/syslogs">Syslogs</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+          </ul>
+        </nav>
+      </div>
 
-      <footer style={{ 'margin-top': '25em', 'font-size': '10px' }}>
+      <footer className="home-footer">
         <p>&copy; 2025 SYSTEM ERROR. All Rights Reserved.</p>
       </footer>
     </div>

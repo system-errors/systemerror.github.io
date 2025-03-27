@@ -9,7 +9,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/systemerror.github.io">
       <div>
         <Header />
 

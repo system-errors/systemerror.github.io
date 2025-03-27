@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/system-errors/static/css/main.73cb76d6.css",
-    "main.js": "/system-errors/static/js/main.d255202e.js",
-    "static/js/453.deb0a1dc.chunk.js": "/system-errors/static/js/453.deb0a1dc.chunk.js",
-    "index.html": "/system-errors/index.html",
-    "main.73cb76d6.css.map": "/system-errors/static/css/main.73cb76d6.css.map",
-    "main.d255202e.js.map": "/system-errors/static/js/main.d255202e.js.map",
-    "453.deb0a1dc.chunk.js.map": "/system-errors/static/js/453.deb0a1dc.chunk.js.map"
+    "main.css": "/systemerror.github.io/static/css/main.73cb76d6.css",
+    "main.js": "/systemerror.github.io/static/js/main.f247f1f1.js",
+    "static/js/453.deb0a1dc.chunk.js": "/systemerror.github.io/static/js/453.deb0a1dc.chunk.js",
+    "index.html": "/systemerror.github.io/index.html",
+    "main.73cb76d6.css.map": "/systemerror.github.io/static/css/main.73cb76d6.css.map",
+    "main.f247f1f1.js.map": "/systemerror.github.io/static/js/main.f247f1f1.js.map",
+    "453.deb0a1dc.chunk.js.map": "/systemerror.github.io/static/js/453.deb0a1dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73cb76d6.css",
-    "static/js/main.d255202e.js"
+    "static/js/main.f247f1f1.js"
   ]
 }

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/systemerror.github.io/static/css/main.73cb76d6.css",
-    "main.js": "/systemerror.github.io/static/js/main.f247f1f1.js",
+    "main.js": "/systemerror.github.io/static/js/main.b5727633.js",
     "static/js/453.deb0a1dc.chunk.js": "/systemerror.github.io/static/js/453.deb0a1dc.chunk.js",
     "index.html": "/systemerror.github.io/index.html",
     "main.73cb76d6.css.map": "/systemerror.github.io/static/css/main.73cb76d6.css.map",
-    "main.f247f1f1.js.map": "/systemerror.github.io/static/js/main.f247f1f1.js.map",
+    "main.b5727633.js.map": "/systemerror.github.io/static/js/main.b5727633.js.map",
     "453.deb0a1dc.chunk.js.map": "/systemerror.github.io/static/js/453.deb0a1dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73cb76d6.css",
-    "static/js/main.f247f1f1.js"
+    "static/js/main.b5727633.js"
   ]
 }

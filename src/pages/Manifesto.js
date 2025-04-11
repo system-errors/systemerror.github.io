@@ -8,6 +8,7 @@ const Manifesto = () => {
         <p>You will find these logs on the streets, pasted on walls and signs. They cover today's themes, such as the rise of oligarchies, endless war, tech dystopia, and climate collapse. The system is erroring, and they want us to comply.</p>
         <p>All logs come from <strong>SYSTEM ERROR</strong>.</p>
         <p>Interpret it at your own risk—or don't. But remember, the choice was never really yours to begin with.</p>
+        <p>- Zsh λ</p>
     </div>
   );
 };

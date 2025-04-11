@@ -11,7 +11,7 @@ const Home = () => {
     const sourceMessages = {
       "gold_teeth_one": "Gold weighs them down and so does their guilt. Do we really need to chase wealth?",
       "logoff": "The screen in our hands keeps us unaware. What if fresh air became a premium subscription?",
-      "election": "A billionaire's algorithm is affecting our election right now. Have you forgotten how to choose? How to think?",
+      "election": "Democracy requires memory. A billionaire has deleted ours.",
     };
 
     if (source && sourceMessages.hasOwnProperty(source)) {

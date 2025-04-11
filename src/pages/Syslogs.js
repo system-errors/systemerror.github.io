@@ -8,8 +8,13 @@ const Syslogs = () => {
       </p>
 
       <div className="log-item">
-        <span>% SYSTEM LOG #3 [DEMOCRACY REQUIRES MEMORY][2025-04-??] </span>
+        <span>% SYSTEM LOG #4 [???][2025-04-??] </span>
         <o className="coming-soon">For your saftey access will be restricted until the logs stop printing.</o>
+      </div>
+
+      <div className="log-item">
+        <span>% SYSTEM LOG #3 [DEMOCRACY REQUIRES MEMORY][2025-04-11] </span>
+        <a className="warning" href="images/SE3.jpg" target="_blank" rel="noopener noreferrer">(View Log)</a>
       </div>
 
       <div className="log-item">

@@ -241,6 +241,12 @@ button:hover {
   color: #caa73b;
 }
 
+.coming-soon {
+  color: #737373;
+  font-style: italic;
+  font-size: smaller;
+}
+
 .button-container {
   width: 100%;
   max-width: 400px;

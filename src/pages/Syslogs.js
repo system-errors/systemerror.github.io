@@ -7,10 +7,10 @@ const Syslogs = () => {
         WARNING These errors have been found in many parts of the city. Remember to stay alert, stay awake, and question everything.
       </p>
 
-      <div className="log-item">
+      {/* <div className="log-item">
         <span>% SYSTEM LOG #4 [???][2025-04-??] </span>
         <o className="coming-soon">For your saftey access will be restricted until the logs stop printing.</o>
-      </div>
+      </div> */}
 
       <div className="log-item">
         <span>% SYSTEM LOG #3 [DEMOCRACY REQUIRES MEMORY][2025-04-11] </span>
